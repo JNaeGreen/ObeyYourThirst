@@ -1,0 +1,469 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 25;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+p {
+    font-size: 0.9rem;
+}
+
+nav {
+    background-color: #009639;
+    color: white;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    padding: 1rem 0;
+    z-index: 1;
+}
+
+nav figure img {
+    width: 7rem;
+    padding: 0 0.5rem;
+}
+
+#path {
+    display: flex;
+    width: 45%;
+    justify-content: space-around;
+    padding: 0 0.5rem;
+}
+
+#media {
+    display: flex;
+    margin-left: auto;
+    padding: 0 0.5rem;
+}
+
+nav img {
+    justify-content: right;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    padding: 0 0.5rem;
+}
+
+#hero {
+    background-color: #009639;
+}
+
+#hero img {
+    width: 100%;
+    padding-top: 6rem;
+}
+
+#manifesto {
+    padding-top: 2rem;
+    background-color: black;
+    color: white;
+}
+
+#message {
+    width: 35rem;
+    text-align: center;
+    margin: 0px auto;
+}
+
+#message h2 {
+    padding: 0;
+}
+
+#mission {
+    text-decoration: line-through solid 0.76rem #cbf901;
+}
+
+#mission:before,
+#mission:after {
+    content: "\00a0\00a0";
+}
+
+.bold {
+    color: #6bc049;
+}
+
+#thirst-for-yours img {
+    width: 100%;
+}
+
+#videos {
+    font-family: sans-serif;
+    text-transform: none;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+}
+
+#videos h5 {
+    font-family: 'Kanit', sans-serif;
+    font-style: italic;
+}
+
+#videos .bold {
+    color: #009639;
+    font-family: 'Kanit', sans-serif;
+}
+
+.vid-box {
+    width: 45%;
+    padding: 1rem;
+}
+
+.vid {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+.vid iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#lemon-border {
+    margin-bottom: -1rem;
+}
+
+#lemon-border img {
+    width: 100%;
+}
+
+#most-wanted {
+    background-color: #009639;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+#most-wanted img {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+#most-wanted-buy {
+    text-align: center;
+    width: 20rem;
+    align-self: flex-end;
+    padding-right: 10%;
+    padding-bottom: 2rem;
+}
+
+#buy {
+    display: flex;
+    justify-content: center;
+}
+
+#buy-button {
+    border: 2px solid white;
+    padding: 0.5rem;
+}
+
+#follow-us {
+    background-color: black;
+    color: white;
+}
+
+#follow-us-header {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+#follow-us-header:before,
+#follow-us-header:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 3px solid #00964c;
+    margin: auto;
+}
+
+#follow-us-header h2 {
+    padding: 0.5rem;
+}
+
+#follow-us-header figure {
+    display: flex;
+    align-items: center;
+}
+
+#follow-us-header img {
+    width: 20px;
+    height: 20px;
+    padding: 0.5rem;
+}
+
+#follow-us>figure {
+    display: flex;
+    justify-content: center;
+}
+
+#follow-us>figure>img {
+    width: 20px;
+    height: 20px;
+}
+
+#twitter-stories {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    padding: 1rem;
+}
+
+#twitter-stories figure {
+    padding: 0.1rem;
+}
+
+#twitter-stories img {
+    width: 100%;
+}
+
+#audio-media {
+    color: #3a7539;
+    text-transform: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#audio-media img {
+    width: 100%;
+}
+
+#sprite-way {
+    width: 22rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+#spotify {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#playlist {
+    padding: 1rem 0.5rem;
+}
+
+#playlist-button,
+#podcast-button {
+    background-color: #009639;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    font-size: 0.65rem;
+    font-family: 'Kanit', sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 25;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#playlist-button img,
+#podcast-button img {
+    width: 20px;
+    height: 20px;
+    padding: 0.5rem;
+}
+
+#podcast {
+    width: 200px;
+    padding: 1rem 0.5rem;
+}
+
+#contact {
+    background-color: black;
+    color: #cbf901;
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+}
+
+#contact-form,
+#contact-image {
+    width: 50%;
+}
+
+#contact-image img {
+    width: 90%;
+}
+
+#contact input,
+textarea {
+    width: 15rem;
+}
+
+#contact textarea {
+    height: 7rem;
+}
+
+#contact button {
+    background-color: #cbf901;
+    color: #009639;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-family: 'Kanit', sans-serif;
+    font-style: italic;
+    font-weight: 25;
+}
+
+#verify {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+
+#verify p {
+    width: 15rem;
+    padding: 0.5rem;
+}
+
+footer {
+    background-color: #009639;
+    color: white;
+    font-size: 0.65rem;
+    padding-top: 3rem;
+}
+
+footer h5 {
+    line-height: 3rem;
+}
+
+#footer-logo {
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    max-width: 143px;
+}
+
+#footer-logo img {
+    width: 100%;
+}
+
+#footer-social {
+    width: 20%;
+    text-align: center;
+}
+
+#footer-social ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+#footer-flavors ul,
+#buy-now ul {
+    list-style-type: none;
+    font-size: 1rem;
+}
+
+#footer-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer-counter {
+    background-color: #cbf901;
+    color: #336632;
+    margin: 0.5rem auto;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    width: 11rem;
+    border: white 2px solid;
+    border-radius: 1rem;
+}
+
+#footer-counter p {
+    padding: 0rem 0.25rem;
+}
+
+#footer-nav {
+    font-size: 1.5rem;
+    text-transform: none;
+    text-align: center;
+    padding: 1rem;
+}
+
+#footer-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+#footer-nav li {
+    font-size: 1rem;
+    padding: 0.25rem;
+    font-style: normal;
+}
+
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+    .soc-img {
+        width: 16px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 7px;
+    }
+    .responsive {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .soc-img {
+        width: 12px;
+    }
+}
